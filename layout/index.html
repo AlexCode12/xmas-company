@@ -5,36 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/color/48/000000/elf.png">
-    <title>XMAS COMPANY</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather%7CMerriweather+Sans" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/material/24/000000/elf.png">
+    <title>THE XMAS COMPANY - PLATSEN FÖR DIN BÄSTA JULSHOPPING</title>
 </head>
 <body>
+        <button onclick="topFunction()" id="myBtn" title="Gå upp till hem">TILL HEM</button>
+        <script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("myBtn").style.display = "block";
+                  } else {
+                    document.getElementById("myBtn").style.display = "none";
+                  }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+                </script>
     <nav> 
         <ul>
+            <li><a href="#xmascompany">HEM</a></li>
             <li><a href="#omoss">OM OSS</a></li>
             <li><a href="#kontakt">KONTAKT</a></li>
         </ul>
     </nav>
-    <section id="xmas company">
+    <section id="xmascompany">
             <h1>XMAS COMPANY</h1>
             <h2>FÖR EN KUL JUL!</h2>
             <p>Välkommen till vår officiella hemsida.</p>
             <p>Använd länkarna som finns i det övre vänstra hörnet för att navigera på sidan.</p>
-            <img src="https://img.icons8.com/color/48/000000/elf.png">
+            <img src="https://img.icons8.com/color/96/000000/elf.png" alt="elf">
     </section>  
 <section id="omoss">
     <h2>OM OSS</h2>
-    <p>Vi på XMAS Company strävar efter att ge dig den bästa möjliga julen och har gjort det sedan 2018.</p>
-    <p>Våra produkter är allt från julgranar till en julversion av John Denvers "Country Roads". Vi har alltid kundens bästa i åtanke.</p>
+    <img src="https://img.icons8.com/color/96/000000/christmas-gift.png" alt="christmas-gift">
+    <p>Vi på THE XMAS COMPANY strävar att ge dig som kund den allra bästa julupplevelsen.</p>
+    <p>Efter att företaget grundades år 1998 av Jens Jensen, har vi haft ett sortiment som sträckt sig från julgranar till en julvariant av John Denver's "Country Roads".</p>
+    <p>Det finns alltid något för alla här hos oss på THE XMAS COMPANY.</p>
 </section>
 <section id="kontakt">
     <h2>KONTAKT</h2>
-    <img src="https://img.icons8.com/color/48/000000/gingerbread-house.png">
+    <img src="https://img.icons8.com/color/96/000000/gingerbread-house.png"alt="gingerbread-house">
     <p>Du kan kontakta oss via följande uppgifter:</p>
-    <p>Mail: thexmascompany@gmail.com</p>
-    <p>Telefon: 070-202-2020</p>
-    <p>Adress: Nordpolengatan 1, 1924A, Grönland</p>
+    <p>Mail: thexmascompany@xmas.com</p>
+    <p>Telefon: 070-121-2424</p>
+    <p>Adress: Nordpolengatan 24, 2412, Grönland</p>
+    <p><sub>© 2018 THE XMAS COMPANY med ensamrätt</sub></p>
 </section>
 </body>
 </html>
